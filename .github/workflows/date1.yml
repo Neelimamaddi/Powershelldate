@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: .\Powershelldate\date.ps1
+      run: .\date.ps1
       shell: powershell
 
